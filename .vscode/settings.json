@@ -1,0 +1,7 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "/Users/bryan/ssd/SSDHW3/**/*.jar",
+    "/Users/bryan/Downloads/junit5-r5.12.1/**/*.jar"
+  ]
+}
