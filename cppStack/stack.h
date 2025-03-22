@@ -11,7 +11,8 @@ class Stack {
 private:
     unsigned int currentCapacity;
     unsigned int numElements;
-    std::unique_ptr<std::string[]> values;
+    std::unique_ptr<std::string> *values;
+    
     void expand();
 
 public:
