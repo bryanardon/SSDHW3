@@ -1,6 +1,6 @@
 # SSDHW3
 
-This project focuses on build a secure expandable array in C, C++ and Java.
+This project focuses on building a secure expandable array in C, C++ and Java.
 
 ### To run Java Project
 
