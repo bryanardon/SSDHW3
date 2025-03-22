@@ -26,19 +26,15 @@ void testPushPopPeek() {
     
     StringResponse peekRes = peek(s);
     assert(strcmp(peekRes.value, "three") == 0);
-    free(peekRes.value);
     
     StringResponse popRes = pop(s);
     assert(strcmp(popRes.value, "three") == 0);
-    free(popRes.value);
     
     popRes = pop(s);
     assert(strcmp(popRes.value, "two") == 0);
-    free(popRes.value);
 
     popRes = pop(s);
     assert(strcmp(popRes.value, "one") == 0);
-    free(popRes.value);
     
     assert(pop(s).code == stack_empty);
     destroyStack(s);
